@@ -8,13 +8,13 @@ class DatabaseSeeder extends Seeder
 {
     /**
      * Seed the application's database.
-     *
-     * @return void
      */
-    public function run()
+    public function run(): void
     {
-        $this->call(TagSeeder::class);
-        $this->call(AdminSeeder::class);
-        $this->call(UserSeeder::class);
+        $this->call([
+            TagSeeder::class,
+            AdminSeeder::class,
+            UserSeeder::class
+        ]);
     }
 }

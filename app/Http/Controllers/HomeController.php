@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 use App\Models\Hobby;
+use Illuminate\Contracts\Support\Renderable;
+use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     /**
+     * Create a new controller instance.
+     *
      * @return void
      */
     public function __construct()
@@ -17,9 +19,12 @@ class HomeController extends Controller
     }
 
     /**
-     * @return \Illuminate\Contracts\Support\Renderable
+     * Show the application dashboard.
+     *
+     * @return Renderable
      */
-    public function index() {
+    public function index()
+    {
         $hobbies = Hobby::select()->where('user_id',auth()->id())->orderBy('updated_at', 'DESC')->get();
         return view('home')->with([
             'hobbies'=>$hobbies
