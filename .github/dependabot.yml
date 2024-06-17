@@ -9,7 +9,7 @@ updates:
   reviewers:
     - "Coho04"
 
-- package-ecosystem: "package"
+- package-ecosystem: "npm"
   directory: "/"
   schedule:
     interval: "daily"
