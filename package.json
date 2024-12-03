@@ -10,7 +10,7 @@
         "axios": "^1.7.8",
         "bootstrap": "^5.2.3",
         "laravel-vite-plugin": "^1.1",
-        "sass": "^1.81.0",
+        "sass": "^1.81.1",
         "vite": "^6.0"
     },
     "dependencies": {
