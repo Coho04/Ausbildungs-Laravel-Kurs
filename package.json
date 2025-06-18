@@ -9,7 +9,7 @@
         "vite": "^6.3.5",
         "@popperjs/core": "^2.11.8",
         "axios": "^1.10.0",
-        "bootstrap": "^5.3.6",
+        "bootstrap": "^5.3.7",
         "sass": "^1.89.2"
     },
     "dependencies": {
