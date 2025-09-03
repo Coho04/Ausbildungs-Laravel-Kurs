@@ -13,7 +13,7 @@
         "sass": "^1.91.0"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "^7.0.0",
+        "@fortawesome/fontawesome-free": "^7.0.1",
         "lightbox2": "^2.11.5"
     }
 }
