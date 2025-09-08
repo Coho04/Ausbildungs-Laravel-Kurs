@@ -10,7 +10,7 @@
         "@popperjs/core": "^2.11.8",
         "axios": "^1.11.0",
         "bootstrap": "^5.3.8",
-        "sass": "^1.91.0"
+        "sass": "^1.92.1"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^7.0.1",
