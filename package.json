@@ -6,7 +6,7 @@
         "build": "vite build"
     },
     "devDependencies": {
-        "vite": "^7.1.6",
+        "vite": "^7.1.7",
         "@popperjs/core": "^2.11.8",
         "axios": "^1.12.2",
         "bootstrap": "^5.3.8",
